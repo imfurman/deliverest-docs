@@ -1,0 +1,118 @@
+site_name: Deliverest - Документация
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.top
+    - navigation.footer
+nav:
+  - Обзор:
+      - Главная: index.md
+  - Заказы:
+      - Обзор: orders/index.md
+      - Лента заказов: orders/list.md
+      - Поиск и фильтры: orders/filters.md
+      - Мониторинг доставки: orders/tracking.md
+  - Каталог:
+      - Обзор: catalog/index.md
+      - Позиции: catalog/items.md
+      - Разделы каталога: catalog/sections.md
+      - Модификации: catalog/modifiers.md
+      - Добавочные позиции: catalog/additions.md
+      - Рекомендации: catalog/recommendations.md
+      - Ярлыки: catalog/labels.md
+      - Стоп-лист: catalog/stop-list.md
+      - Артикулы: catalog/vendor-codes.md
+  - Контент:
+      - Обзор: content/index.md
+      - Шаблоны: content/templates.md
+      - Страницы: content/pages.md
+      - Инфоблоки: content/blocks.md
+  - Маркетинг:
+      - Обзор: marketing/index.md
+      - Скидки и акции: marketing/discounts.md
+      - Фиксированные скидки: marketing/fixed-discounts.md
+      - Акции: marketing/actions.md
+      - Бонусные уровни: marketing/bonus-levels.md
+      - Бонусы и лояльность: marketing/loyalty.md
+      - Промокоды: marketing/promocodes.md
+      - Подарочные позиции: marketing/gifts.md
+      - Повышенный кэшбэк: marketing/cashback.md
+      - Продвижение в мобильном приложении: marketing/mobile-app.md
+      - Скрытие секций по расписанию: marketing/section-schedule.md
+      - Жетоны: marketing/tokens.md
+  - Рассылка:
+      - Обзор: messaging/index.md
+      - SMS кампании: messaging/sms.md
+      - Push-уведомления: messaging/push.md
+      - Шаблоны сообщений: messaging/templates.md
+  - Отчёты:
+      - Обзор: reports/index.md
+      - Стандартные отчёты: reports/standard.md
+      - KPI и аналитика: reports/kpi.md
+      - Оперативные показатели: reports/operational.md
+  - Сотрудники:
+      - Обзор: staff/index.md
+      - Пользователи и роли: staff/users.md
+      - Графики смен: staff/schedules.md
+      - Права доступа: staff/permissions.md
+  - Мобильные решения:
+      - Обзор: mobile/index.md
+      - Клиентское приложение: mobile/client-app.md
+      - Курьерское приложение: mobile/courier-app.md
+      - Мобильная структура: mobile/structure.md
+      - Условия доставки: mobile/delivery-terms.md
+  - Настройки:
+      - Обзор: settings/index.md
+      - Основные параметры: settings/basics.md
+      - Конфигурации: settings/configs.md
+      - Настройки проекта: settings/project.md
+      - Конфигурация сайта: settings/site-config.md
+      - Интеграции: settings/integrations.md
+      - Стили и тема: settings/styles.md
+      - Стилизация (CSS): settings/styling.md
+      - Цеха: settings/workshops.md
+      - Платёжные провайдеры: settings/payments.md
+      - Станции и геозоны: settings/stations.md
+      - Кухонные мониторы: settings/kitchen-monitors.md
+      - Города: settings/cities.md
+      - Причины отмены: settings/cancel-reasons.md
+      - Производительность: settings/performance.md
+      - Зарплаты курьеров: settings/drivers-salaries.md
+      - Журнал изменений: settings/changelog.md
+  - Финансы:
+      - Обзор: finance/index.md
+      - Транзакции: finance/transactions.md
+      - Бюджеты: finance/budgets.md
+      - Инкассация: finance/collection.md
+      - Расходы: finance/spendings.md
+      - Табель и график: finance/timesheet.md
+  - Клиенты:
+      - Обзор: customers/index.md
+      - База клиентов: customers/database.md
+      - Обратная связь: customers/feedback.md
+      - Импорт и экспорт: customers/import.md
+      - Рейтинги и отзывы: customers/ratings.md
+  - Энциклопедия:
+      - Обзор: knowledge-base/index.md
+      - Статьи: knowledge-base/articles.md
+      - Разделы: knowledge-base/sections.md
+      - Регламенты: knowledge-base/guidelines.md
+  - MasterBot:
+      - Обзор: masterbot/index.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra:
+  generator: true
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@deliverestl5098
+    - icon: simple/telegram
+      link: https://t.me/superdostavka_live
+    - icon: simple/vk
+      link: https://vk.com/superdostavkacrm
