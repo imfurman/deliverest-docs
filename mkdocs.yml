@@ -14,6 +14,15 @@ nav:
       - План внедрения: start/implementation.md
       - Ежедневная работа: start/daily-ops.md
       - Рост и развитие: start/growth.md
+  - Производство и склад:
+      - Обзор: production/index.md
+      - Склад и ингредиенты: production/inventory.md
+      - Техкарты и себестоимость: production/techcards.md
+      - Мониторинг производства: production/monitoring.md
+  - Автоматизация и интеграции:
+      - Обзор: automation/index.md
+      - Интеграции: automation/integrations.md
+      - Уведомления и триггеры: automation/notifications.md
   - Заказы:
       - Обзор: orders/index.md
       - Лента заказов: orders/list.md
@@ -109,6 +118,9 @@ nav:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
