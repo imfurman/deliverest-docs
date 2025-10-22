@@ -9,6 +9,11 @@ theme:
 nav:
   - Обзор:
       - Главная: index.md
+  - Запуск и сопровождение:
+      - Обзор: start/index.md
+      - План внедрения: start/implementation.md
+      - Ежедневная работа: start/daily-ops.md
+      - Рост и развитие: start/growth.md
   - Заказы:
       - Обзор: orders/index.md
       - Лента заказов: orders/list.md
