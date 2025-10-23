@@ -130,4 +130,5 @@ dmypy.json
 deliverest_source/
 deliverest_courier_app_source/
 deliverest_client_app_source/
+deliverest_confluence/
 .DS_Store
