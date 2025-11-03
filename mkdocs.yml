@@ -4,32 +4,33 @@ theme:
   name: material
   language: ru
   features:
+    - navigation.indexes
     - navigation.top
     - navigation.footer
 nav:
   - Обзор:
       - Главная: index.md
   - Запуск и сопровождение:
-      - Обзор: start/index.md
+      - start/index.md
       - План внедрения: start/implementation.md
       - Ежедневная работа: start/daily-ops.md
       - Рост и развитие: start/growth.md
   - Производство и склад:
-      - Обзор: production/index.md
+      - production/index.md
       - Склад и ингредиенты: production/inventory.md
       - Техкарты и себестоимость: production/techcards.md
       - Мониторинг производства: production/monitoring.md
   - Автоматизация и интеграции:
-      - Обзор: automation/index.md
+      - automation/index.md
       - Интеграции: automation/integrations.md
       - Уведомления и триггеры: automation/notifications.md
   - Заказы:
-      - Обзор: orders/index.md
+      - orders/index.md
       - Лента заказов: orders/list.md
       - Поиск и фильтры: orders/filters.md
       - Мониторинг доставки: orders/tracking.md
   - Каталог:
-      - Обзор: catalog/index.md
+      - catalog/index.md
       - Позиции: catalog/items.md
       - Разделы каталога: catalog/sections.md
       - Модификации: catalog/modifiers.md
@@ -39,12 +40,12 @@ nav:
       - Стоп-лист: catalog/stop-list.md
       - Артикулы: catalog/vendor-codes.md
   - Контент:
-      - Обзор: content/index.md
+      - content/index.md
       - Шаблоны: content/templates.md
       - Страницы: content/pages.md
       - Инфоблоки: content/blocks.md
   - Маркетинг:
-      - Обзор: marketing/index.md
+      - marketing/index.md
       - Скидки и акции: marketing/discounts.md
       - Фиксированные скидки: marketing/fixed-discounts.md
       - Акции: marketing/actions.md
@@ -58,28 +59,28 @@ nav:
       - Скрытие секций по расписанию: marketing/section-schedule.md
       - Жетоны: marketing/tokens.md
   - Рассылка:
-      - Обзор: messaging/index.md
+      - messaging/index.md
       - SMS кампании: messaging/sms.md
       - Push-уведомления: messaging/push.md
       - Шаблоны сообщений: messaging/templates.md
   - Отчёты:
-      - Обзор: reports/index.md
+      - reports/index.md
       - Стандартные отчёты: reports/standard.md
       - KPI и аналитика: reports/kpi.md
       - Оперативные показатели: reports/operational.md
   - Сотрудники:
-      - Обзор: staff/index.md
+      - staff/index.md
       - Пользователи и роли: staff/users.md
       - Графики смен: staff/schedules.md
       - Права доступа: staff/permissions.md
   - Мобильные решения:
-      - Обзор: mobile/index.md
+      - mobile/index.md
       - Клиентское приложение: mobile/client-app.md
       - Курьерское приложение: mobile/courier-app.md
       - Мобильная структура: mobile/structure.md
       - Условия доставки: mobile/delivery-terms.md
   - Настройки:
-      - Обзор: settings/index.md
+      - settings/index.md
       - Основные параметры: settings/basics.md
       - Конфигурации: settings/configs.md
       - Настройки проекта: settings/project.md
@@ -97,25 +98,24 @@ nav:
       - Зарплаты курьеров: settings/drivers-salaries.md
       - Журнал изменений: settings/changelog.md
   - Финансы:
-      - Обзор: finance/index.md
+      - finance/index.md
       - Транзакции: finance/transactions.md
       - Бюджеты: finance/budgets.md
       - Инкассация: finance/collection.md
       - Расходы: finance/spendings.md
       - Табель и график: finance/timesheet.md
   - Клиенты:
-      - Обзор: customers/index.md
+      - customers/index.md
       - База клиентов: customers/database.md
       - Обратная связь: customers/feedback.md
       - Импорт и экспорт: customers/import.md
       - Рейтинги и отзывы: customers/ratings.md
   - Энциклопедия:
-      - Обзор: knowledge-base/index.md
+      - knowledge-base/index.md
       - Статьи: knowledge-base/articles.md
       - Разделы: knowledge-base/sections.md
       - Регламенты: knowledge-base/guidelines.md
-  - MasterBot:
-      - Обзор: masterbot/index.md
+  - MasterBot: masterbot/index.md
 markdown_extensions:
   - attr_list
   - md_in_html
