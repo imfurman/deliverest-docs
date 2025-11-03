@@ -1,3 +1,7 @@
+---
+icon: material/chart-line
+---
+
 # Отчёты
 
 Аналитика Deliverest базируется на `ReportBundle` и фоновой системе `BackgroundController`. Отчёты строятся на данных из MySQL и Redis, а сложные выборки — через precomputed таблицы.
