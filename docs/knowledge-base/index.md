@@ -18,4 +18,3 @@ icon: material/book-open-variant
 
 - [Статьи](articles.md)
 - [Разделы](sections.md)
-- [Регламенты](guidelines.md)

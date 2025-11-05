@@ -26,7 +26,7 @@ nav:
       - Уведомления и триггеры: automation/notifications.md
   - Заказы:
       - orders/index.md
-      - Лента заказов: orders/list.md
+      - Список заказов: orders/list.md
       - Поиск и фильтры: orders/filters.md
       - Мониторинг доставки: orders/tracking.md
   - Каталог:
@@ -114,7 +114,6 @@ nav:
       - knowledge-base/index.md
       - Статьи: knowledge-base/articles.md
       - Разделы: knowledge-base/sections.md
-      - Регламенты: knowledge-base/guidelines.md
   - MasterBot: masterbot/index.md
 markdown_extensions:
   - attr_list
