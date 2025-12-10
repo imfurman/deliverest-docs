@@ -9,6 +9,7 @@ theme:
     - navigation.footer
 plugins:
   - search
+  - tags
   - blog:
       blog_dir: history
       archive_date_format: MMMM yyyy
@@ -140,3 +141,5 @@ extra:
       link: https://t.me/superdostavka_live
     - icon: simple/vk
       link: https://vk.com/superdostavkacrm
+extra_css:
+  - stylesheets/extra.css
