@@ -1,7 +1,3 @@
----
-icon: material/bullhorn-outline
----
-
 # Маркетинг
 
 Маркетинговый контур Deliverest построен на `AdminBundle`, `BonusBundle`, `PromocodeBundle` и `MessageBundle`. Он позволяет запускать и оценивать кампании без участия разработчиков.

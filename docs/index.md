@@ -1,7 +1,3 @@
----
-icon: material/home
----
-
 # Добро пожаловать
 
 ## Что такое Deliverest

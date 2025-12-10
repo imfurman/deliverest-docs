@@ -1,7 +1,3 @@
----
-icon: material/view-grid-outline
----
-
 # Каталог
 
 Каталог — сердце Deliverest. На его основе строятся сайт, мобильные приложения и операторская панель. Модуль реализован через `CatalogBundle`, `StoreBundle` и набор служб (`catalog_cache_warmer`, `mobile_catalog`, `position_importer`).

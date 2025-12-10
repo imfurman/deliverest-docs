@@ -1,7 +1,3 @@
----
-icon: material/clipboard-text-outline
----
-
 # Заказы
 
 Раздел «Заказы» описывает операторскую панель Deliverest. Она построена на `Superdostavka\AdminBundle\OrderController` и объединяет полный цикл обработки: от приёма звонка до закрытия смены курьера.

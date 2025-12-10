@@ -1,7 +1,3 @@
----
-icon: material/email-outline
----
-
 # Рассылка
 
 Коммуникации реализованы в `MessageBundle`. Deliverest поддерживает SMS, push, e-mail, а также сообщения, которые отправляет оператор вручную.
