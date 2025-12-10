@@ -23,6 +23,10 @@ nav:
       - План внедрения: start/implementation.md
       - Ежедневная работа: start/daily-ops.md
       - Рост и развитие: start/growth.md
+  - Инструменты:
+      - admin/index.md
+      - Гипербар: admin/hyperbar.md
+      - MasterBot: masterbot/index.md
   - Производство и склад:
       - production/index.md
       - Склад и ингредиенты: production/inventory.md
@@ -122,7 +126,6 @@ nav:
       - knowledge-base/index.md
       - Статьи: knowledge-base/articles.md
       - Разделы: knowledge-base/sections.md
-  - MasterBot: masterbot/index.md
 markdown_extensions:
   - attr_list
   - md_in_html
