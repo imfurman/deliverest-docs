@@ -1,0 +1,13 @@
+.tags-simple {
+    font-size: 12px;
+    display: block;
+    margin-top: 25px;
+}
+
+.commit-hash {
+  font-size: 10px;
+  color: #ccc;
+}
+.md-post--excerpt {
+  margin-bottom: 1.2rem;
+}
